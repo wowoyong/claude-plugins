@@ -1,0 +1,18 @@
+{
+  "name": "harness-planner",
+  "version": "1.0.0",
+  "description": "실행 계획, 기술 부채, 추적성을 버전 관리되는 1급 아티팩트로 관리하는 하네스 엔지니어링 도구",
+  "author": {
+    "name": "jojaeyong",
+    "email": "wowoyong@github.com"
+  },
+  "homepage": "https://github.com/wowoyong/claude-plugins",
+  "repository": "https://github.com/wowoyong/claude-plugins",
+  "license": "MIT",
+  "keywords": [
+    "planning",
+    "tech-debt",
+    "traceability",
+    "harness-engineering"
+  ]
+}

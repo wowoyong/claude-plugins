@@ -1,0 +1,18 @@
+{
+  "name": "architecture-enforcer",
+  "version": "2.0.0",
+  "description": "Architecture rule enforcement tool - validates module boundaries, layer dependencies, naming conventions, and structural integrity.",
+  "author": {
+    "name": "jojaeyong",
+    "email": "wowoyong@github.com"
+  },
+  "homepage": "https://github.com/wowoyong/claude-plugins",
+  "repository": "https://github.com/wowoyong/claude-plugins",
+  "license": "MIT",
+  "keywords": [
+    "architecture",
+    "linting",
+    "module-boundaries",
+    "layer-dependencies"
+  ]
+}

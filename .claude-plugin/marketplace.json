@@ -1,0 +1,37 @@
+{
+  "name": "wowoyong",
+  "owner": {
+    "name": "jojaeyong",
+    "url": "https://github.com/wowoyong"
+  },
+  "metadata": {
+    "description": "Claude Code plugins by wowoyong — AI coding productivity tools",
+    "homepage": "https://github.com/wowoyong"
+  },
+  "plugins": [
+    {
+      "name": "agent-mux",
+      "version": "0.7.0",
+      "source": "./plugins/agent-mux",
+      "description": "Route tasks between Claude Code and Codex CLI — Subscription Efficiency Maximizer"
+    },
+    {
+      "name": "architecture-enforcer",
+      "version": "2.0.0",
+      "source": "./plugins/architecture-enforcer",
+      "description": "Architecture rule enforcement — validates module boundaries, layer dependencies, naming conventions"
+    },
+    {
+      "name": "harness-docs",
+      "version": "1.0.0",
+      "source": "./plugins/harness-docs",
+      "description": "Harness Engineering documentation management — AGENTS.md, project context"
+    },
+    {
+      "name": "harness-planner",
+      "version": "1.0.0",
+      "source": "./plugins/harness-planner",
+      "description": "Harness Engineering planner — task decomposition, tech debt tracking, traceability"
+    }
+  ]
+}

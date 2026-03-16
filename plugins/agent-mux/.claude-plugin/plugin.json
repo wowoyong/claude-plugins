@@ -1,0 +1,20 @@
+{
+  "name": "agent-mux",
+  "version": "0.7.0",
+  "description": "Route tasks between Claude Code and Codex CLI — Subscription Efficiency Maximizer. Automatically routes tasks to the optimal CLI based on task type and budget.",
+  "author": {
+    "name": "jojaeyong",
+    "email": "wowoyong@github.com"
+  },
+  "homepage": "https://github.com/wowoyong/agent-mux",
+  "repository": "https://github.com/wowoyong/agent-mux",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "agent-routing",
+    "multi-agent",
+    "claude-codex",
+    "subscription-optimizer",
+    "mcp"
+  ]
+}

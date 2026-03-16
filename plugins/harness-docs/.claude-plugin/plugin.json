@@ -1,0 +1,17 @@
+{
+  "name": "harness-docs",
+  "version": "1.0.0",
+  "description": "에이전트를 위한 레포 내 문서 관리 시스템 — 인덱스, 품질 진단, 자동 추출, AGENTS.md 관리",
+  "author": {
+    "name": "jojaeyong",
+    "email": "wowoyong@github.com"
+  },
+  "homepage": "https://github.com/wowoyong/claude-plugins",
+  "repository": "https://github.com/wowoyong/claude-plugins",
+  "license": "MIT",
+  "keywords": [
+    "documentation",
+    "agents-md",
+    "harness-engineering"
+  ]
+}
