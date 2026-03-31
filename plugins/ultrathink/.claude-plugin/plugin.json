@@ -1,0 +1,13 @@
+{
+  "name": "ultrathink",
+  "version": "1.0.0",
+  "description": "Mac Mini infrastructure operations plugin — PM2, Docker, deployment, DB, and health monitoring",
+  "author": {
+    "name": "jojaeyong",
+    "email": "wowoyong@github.com"
+  },
+  "homepage": "https://github.com/wowoyong/claude-plugins",
+  "repository": "https://github.com/wowoyong/claude-plugins",
+  "license": "MIT",
+  "keywords": ["infrastructure", "operations", "pm2", "docker", "deployment", "mac-mini"]
+}
