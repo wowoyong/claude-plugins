@@ -42,8 +42,8 @@ pm2 jlist
 ### restart <app>
 
 1. `pm2 jlist`에서 해당 앱의 `exec_mode` 확인
-2. 클러스터 모드(`cluster`): `pm2 reload <app>` (무중단)
-3. Fork 모드(`fork`): `pm2 restart <app>`
+2. 클러스터 모드(`cluster_mode`): `pm2 reload <app>` (무중단)
+3. Fork 모드(`fork_mode`): `pm2 restart <app>`
 4. 재시작 후 5초 대기, `pm2 jlist`로 상태 확인
 5. 상태가 `online`이 아니면 경고 출력
 
@@ -93,8 +93,8 @@ pm2 jlist | jq '[.[] | select(.pm2_env.status == "stopped") | .name]'
 
 | name | mode | port | 프로젝트 |
 |------|------|------|---------|
-| cm-api | cluster(2) | 4001 | creator-marketplace/backend |
-| cm-web | cluster | 4002 | creator-marketplace/frontend |
+| cm-api | cluster_mode(2) | 4001 | creator-marketplace/backend |
+| cm-web | cluster_mode | 4002 | creator-marketplace/frontend |
 | mac-monitor | fork | 3002 | mac-monitor |
 | paperclip-v2 | fork | 3050 | paperclip-v2 |
 | dev-study-bot | fork | - | dev-study-bot (tsx) |

@@ -87,7 +87,7 @@ pm2 jlist | jq '.[] | select(.name == "<app>") | {status: .pm2_env.status}'
 curl -sf http://localhost:<port>/api/health || echo "HEALTH CHECK FAILED"
 
 # Docker 상태 확인
-docker compose ps --format json | jq '.Health'
+docker compose ps --format json | jq '.[].Health // "N/A"'
 ```
 
 상태가 `online`/`healthy`가 아니면 즉시 경고.

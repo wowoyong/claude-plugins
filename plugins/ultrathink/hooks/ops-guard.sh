@@ -5,7 +5,7 @@
 set -euo pipefail
 
 # $CLAUDE_TOOL_INPUT contains the Bash command as JSON
-COMMAND=$(echo "$CLAUDE_TOOL_INPUT" | jq -r '.command // empty' 2>/dev/null)
+COMMAND=$(echo "${CLAUDE_TOOL_INPUT:-}" | jq -r '.command // empty' 2>/dev/null)
 
 if [ -z "$COMMAND" ]; then
   exit 0

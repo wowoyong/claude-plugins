@@ -75,8 +75,8 @@ done
 ### 5. 시스템 리소스
 
 ```bash
-# CPU/메모리 상위 프로세스
-ps aux --sort=-%mem | head -11
+# CPU/메모리 상위 프로세스 (macOS BSD ps)
+ps -axo pid,pcpu,pmem,comm | sort -k3 -rn | head -10
 
 # 시스템 메모리
 vm_stat | head -5
