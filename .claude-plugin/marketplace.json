@@ -32,6 +32,12 @@
       "version": "1.0.0",
       "source": "./plugins/harness-planner",
       "description": "Harness Engineering planner — task decomposition, tech debt tracking, traceability"
+    },
+    {
+      "name": "ultrathink",
+      "version": "1.0.0",
+      "source": "./plugins/ultrathink",
+      "description": "Mac Mini infrastructure operations — PM2, Docker, deployment, DB, and health monitoring"
     }
   ]
 }
