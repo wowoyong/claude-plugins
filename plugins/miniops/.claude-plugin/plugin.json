@@ -1,5 +1,5 @@
 {
-  "name": "ultrathink",
+  "name": "miniops",
   "version": "1.0.0",
   "description": "Mac Mini infrastructure operations plugin — PM2, Docker, deployment, DB, and health monitoring",
   "author": {
