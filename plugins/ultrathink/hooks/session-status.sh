@@ -30,4 +30,10 @@ fi
 DISK_USAGE=$(df -h / 2>/dev/null | tail -1 | awk '{print $5}')
 echo "Disk: ${DISK_USAGE} used"
 
+# 마지막 배포 시각 (git log 기반)
+LAST_DEPLOY=$(git -C /Users/jojaeyong/WebstormProjects log --all --oneline --format="%cr" -1 2>/dev/null)
+if [ -n "$LAST_DEPLOY" ]; then
+  echo "Last Deploy: ${LAST_DEPLOY}"
+fi
+
 echo "======================================"
