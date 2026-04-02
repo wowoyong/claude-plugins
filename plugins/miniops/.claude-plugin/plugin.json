@@ -9,5 +9,5 @@
   "homepage": "https://github.com/wowoyong/claude-plugins",
   "repository": "https://github.com/wowoyong/claude-plugins",
   "license": "MIT",
-  "keywords": ["infrastructure", "operations", "pm2", "docker", "deployment", "mac-mini"]
+  "keywords": ["infrastructure", "operations", "pm2", "docker", "deployment", "mac-mini", "verify", "pre-commit", "validation"]
 }
